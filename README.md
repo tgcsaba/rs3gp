@@ -1,1 +1,1 @@
-# Variational Recurrent Sparse Spectrum Signature Gaussian Processes
+# Recurrent Sparse Spectrum Signature Gaussian Processes
