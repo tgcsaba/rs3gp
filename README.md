@@ -1,4 +1,46 @@
-# Recurrent Sparse Spectrum Signature Gaussian Processes
-This repository contains supplementary code for the paper _Learning to Forget: Bayesian Time Series Forecasting using Recurrent Sparse Spectrum Signature Gaussian Processes_ available at https://arxiv.org/abs/2412.19727.
+# RS3GP: Recurrent Sparse Spectrum Signature Gaussian Processes
 
-Instructions incoming soon...
+**RS3GP** is a Python package that implements Random Fourier Signature Features for Gaussian Processes, enabling scalable kernel methods for sequential data. It provides efficient approximations of signature kernels, facilitating their application in large-scale machine learning tasks.
+
+## Features
+
+- **Random Fourier Signature Features**: Efficient approximation of signature kernels using random features.
+- **Scalable Gaussian Processes**: Apply Gaussian Process models to sequential data with reduced computational complexity.
+
+## Installation
+
+To install RS3GP, clone the repository and install the package using pip:
+
+```bash
+git clone https://github.com/tgcsaba/rs3gp.git
+cd rs3gp
+pip install .
+```
+## Citation
+
+If you use `RS3GP` in your research, please cite:
+
+> Csaba Tóth, Masaki Adachi, Michael A. Osborne, Harald Oberhauser.  
+> **Learning to Forget: Bayesian Time Series Forecasting using Recurrent Sparse Spectrum Signature Gaussian Processes**.  
+> *Proceedings of The 28th International Conference on Artificial Intelligence and Statistics (AISTATS)*, PMLR 258:4654–4662, 2025.  
+> [Link to paper](https://proceedings.mlr.press/v258/toth25b.html)
+
+```bibtex
+@InProceedings{pmlr-v258-toth25b,
+  title = {Learning to Forget: Bayesian Time Series Forecasting using Recurrent Sparse Spectrum Signature Gaussian Processes},
+  author = {Tóth, Csaba and Adachi, Masaki and Osborne, Michael A and Oberhauser, Harald},
+  booktitle = {Proceedings of The 28th International Conference on Artificial Intelligence and Statistics},
+  pages = {4654--4662},
+  year = {2025},
+  publisher = {PMLR},
+  url = {https://proceedings.mlr.press/v258/toth25b.html}
+}
+```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please contact [csaba.toth@maths.ox.ac.uk](mailto:csaba.toth@maths.ox.ac.uk).
