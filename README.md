@@ -6,6 +6,8 @@
 
 - **Random Fourier Signature Features**: Efficient approximation of signature kernels using random features.
 - **Scalable Gaussian Processes**: Apply Gaussian Process models to sequential data with reduced computational complexity.
+- **Probabilistic Time Series Forecasting**: Outputs full predictive distribution for time series forecasting by a single pass through the time series using efficient an recurrent formulation, enabling uncertainty quantification and robust decision-making.
+
 
 ## Installation
 
